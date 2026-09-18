@@ -1,0 +1,194 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "manual-sorting",
+        "version": "2.0.0",
+        "title": "Manual Sorting",
+        "description": "手动排序汉化与微调",
+        "language": "zh-cn",
+        "supportedVersions": "3.2.4",
+        "author": "Machine丶Yu"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bottom",
+                    "target": "底部"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Top",
+                    "target": "顶部"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Drag started",
+                    "target": "开始拖拽"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Drag and drop enabled",
+                    "target": "拖放功能已启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Drag and drop disabled",
+                    "target": "拖放功能已禁用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Refreshing Explorer after mount",
+                    "target": "挂载后正在刷新资源管理器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Explorer already mounted",
+                    "target": "资源管理器已挂载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Explorer mounted",
+                    "target": "资源管理器挂载成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Directory did not change, calling sort on File Explorer manually",
+                    "target": "目录未更改，正在手动对文件浏览器执行排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Updating order...",
+                    "target": "正在更新排序..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Explorer unpatched",
+                    "target": "资源管理器补丁已移除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Sort order menu unpatched",
+                    "target": "排序菜单补丁已移除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Manual Sorting unloaded",
+                    "target": "手动排序插件已卸载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Migrating settings to v4 format",
+                    "target": "正在将设置迁移至 v4 格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Settings loaded:",
+                    "target": "设置已加载："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Settings saved:",
+                    "target": "设置已保存："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Yep",
+                    "target": "确定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Nope",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show debug logs in the console.",
+                    "target": "在控制台中显示调试日志。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug Mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Manual Sorting",
+                    "target": "手动排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Manual sorting",
+                    "target": "手动排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Reset order",
+                    "target": "重置排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Settings changed externally",
+                    "target": "设置已在外部被更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Reset custom order?",
+                    "target": "确定要重置自定义排序吗？"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(`Debug Mode`)",
+                    "target": "setName(`调试模式`)"
+                },
+                {
+                    "source": "setDesc(`Show debug logs in the console.`)",
+                    "target": "setDesc(`在控制台中显示调试日志。`)"
+                },
+                {
+                    "source": "setTitle(`Manual Sorting`)",
+                    "target": "setTitle(`手动排序`)"
+                },
+                {
+                    "source": "setTitle(`Manual sorting`)",
+                    "target": "setTitle(`手动排序`)"
+                },
+                {
+                    "source": "setTitle(`Reset order`)",
+                    "target": "setTitle(`重置排序`)"
+                },
+                {
+                    "source": "text:`Reset custom order?`",
+                    "target": "text:`确定要重置自定义排序吗？`"
+                }
+            ]
+        }
+    }
+}
